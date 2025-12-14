@@ -1,9 +1,11 @@
 <script lang="ts">
-	interface Props {
-		mounted: boolean;
-	}
+	import { onMount } from 'svelte';
 
-	let { mounted }: Props = $props();
+	let mounted = $state(false);
+
+	onMount(() => {
+		mounted = true;
+	});
 </script>
 
 <section id="home" class="min-h-screen flex items-center justify-center relative overflow-hidden bg-grid">

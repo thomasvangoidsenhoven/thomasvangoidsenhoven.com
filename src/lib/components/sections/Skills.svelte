@@ -3,14 +3,29 @@
 	import SectionHeader from '$lib/components/ui/SectionHeader.svelte';
 	import SkillBar from '$lib/components/ui/SkillBar.svelte';
 
-	interface Props {
-		mounted: boolean;
-	}
+	let inView = $state(false);
+	let sectionRef: HTMLElement;
 
-	let { mounted }: Props = $props();
+	$effect(() => {
+		if (!sectionRef) return;
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				if (entries[0].isIntersecting) {
+					inView = true;
+					observer.disconnect();
+				}
+			},
+			{ threshold: 0.2 }
+		);
+
+		observer.observe(sectionRef);
+
+		return () => observer.disconnect();
+	});
 </script>
 
-<section id="skills" class="py-32 bg-bg-dark relative overflow-hidden">
+<section bind:this={sectionRef} id="skills" class="py-32 bg-bg-dark relative overflow-hidden">
 	<div class="absolute inset-0 bg-grid opacity-50"></div>
 
 	<div class="max-w-6xl mx-auto px-6 relative z-10">
@@ -25,7 +40,7 @@
 				</h3>
 				<div class="space-y-4">
 					{#each skills.languages as skill}
-						<SkillBar {skill} animated={mounted} />
+						<SkillBar {skill} animated={inView} />
 					{/each}
 				</div>
 			</div>
@@ -38,7 +53,7 @@
 				</h3>
 				<div class="space-y-4">
 					{#each skills.frameworks as skill}
-						<SkillBar {skill} animated={mounted} />
+						<SkillBar {skill} animated={inView} />
 					{/each}
 				</div>
 			</div>
@@ -51,7 +66,7 @@
 				</h3>
 				<div class="space-y-4">
 					{#each skills.tools as skill}
-						<SkillBar {skill} animated={mounted} />
+						<SkillBar {skill} animated={inView} />
 					{/each}
 				</div>
 			</div>

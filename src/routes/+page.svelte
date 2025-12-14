@@ -12,12 +12,9 @@
 		Footer
 	} from '$lib';
 
-	let mounted = $state(false);
 	let activeSection = $state('home');
 
 	onMount(() => {
-		mounted = true;
-
 		const observer = new IntersectionObserver(
 			(entries) => {
 				entries.forEach((entry) => {
@@ -46,9 +43,9 @@
 </svelte:head>
 
 <Navigation {activeSection} />
-<Hero {mounted} />
+<Hero />
 <About />
-<Skills {mounted} />
+<Skills />
 <Experience />
 <Projects />
 <Certifications />
