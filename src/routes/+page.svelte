@@ -35,10 +35,10 @@
 </script>
 
 <svelte:head>
-	<title>Thomas Van Goidsenhoven | .NET Software Engineer</title>
+	<title>Thomas Vangoidsenhoven | .NET Software Engineer</title>
 	<meta
 		name="description"
-		content="Senior .NET Software Engineer specializing in building scalable, cloud-native applications with ASP.NET Core, Azure, and modern architecture patterns."
+		content="Senior .NET Software Engineer specializing in building scalable, cloud-native applications with .Net, Azure/AWS, and modern architecture patterns."
 	/>
 </svelte:head>
 

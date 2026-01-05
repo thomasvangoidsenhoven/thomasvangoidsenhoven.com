@@ -23,18 +23,18 @@
 				: 'opacity-0 translate-y-4'}"
 		>
 			<span class="w-2 h-2 rounded-full bg-csharp animate-pulse"></span>
-			<span class="text-sm text-text-secondary font-[family-name:var(--font-mono)]"
+			<span class="text-sm text-text-secondary font-mono"
 				>Available for new opportunities</span
 			>
 		</div>
 
 		<h1
-			class="font-[family-name:var(--font-display)] text-5xl md:text-7xl font-bold mb-6 transition-all duration-700 delay-100 {mounted
+			class="font-display text-5xl md:text-7xl font-bold mb-6 transition-all duration-700 delay-100 {mounted
 				? 'opacity-100 translate-y-0'
 				: 'opacity-0 translate-y-4'}"
 		>
-			Thomas Van<br />
-			<span class="text-gradient">Goidsenhoven</span>
+			Thomas<br />
+			<span class="text-gradient">Vangoidsenhoven</span>
 		</h1>
 
 		<p

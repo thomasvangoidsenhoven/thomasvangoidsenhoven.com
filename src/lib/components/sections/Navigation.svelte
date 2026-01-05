@@ -10,7 +10,7 @@
 
 <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-bg-deep/80 border-b border-border">
 	<div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
-		<a href="#home" class="font-[family-name:var(--font-display)] font-bold text-xl tracking-tight">
+		<a href="#home" class="font-display font-bold text-xl tracking-tight">
 			<span class="text-gradient">TVG</span>
 		</a>
 		<div class="hidden md:flex items-center gap-1">
@@ -27,7 +27,7 @@
 			{/each}
 		</div>
 		<a
-			href="/Thomas_Van_Goidsenhoven_CV.pdf"
+			href="/thomasvangoidsenhoven.pdf"
 			download
 			class="hidden md:flex items-center gap-2 px-4 py-2 text-sm font-medium bg-dotnet hover:bg-dotnet-light transition-colors rounded-lg"
 		>
