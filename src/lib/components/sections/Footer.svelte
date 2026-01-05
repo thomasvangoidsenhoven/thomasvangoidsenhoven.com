@@ -3,7 +3,7 @@
 		class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-4"
 	>
 		<p class="text-text-muted text-sm">
-			&copy; {new Date().getFullYear()} Thomas Van Goidsenhoven. Built with
+			&copy; {new Date().getFullYear()} Thomas Vangoidsenhoven. Built with
 			<span class="text-dotnet-light">SvelteKit</span> &
 			<span class="text-azure-light">Tailwind CSS</span>
 		</p>
@@ -22,7 +22,7 @@
 				</svg>
 			</a>
 			<a
-				href="https://linkedin.com/in/thomasvangoidsenhoven"
+				href="https://www.linkedin.com/in/thomas-vangoidsenhoven-ba18b7139/"
 				target="_blank"
 				rel="noopener noreferrer"
 				class="text-text-muted hover:text-text-primary transition-colors"

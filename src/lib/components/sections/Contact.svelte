@@ -26,7 +26,7 @@
 			<!-- Contact Info -->
 			<div class="space-y-6">
 				<a
-					href="mailto:thomas@vangoidsenhoven.dev"
+					href="mailto:vangoidsenhoventhomas@gmail.com"
 					class="group p-6 bg-bg-card rounded-2xl border border-border hover:border-dotnet/50 transition-all duration-300 flex items-center gap-4"
 				>
 					<div
@@ -48,12 +48,12 @@
 					</div>
 					<div>
 						<p class="text-sm text-text-muted mb-1">Email</p>
-						<p class="font-medium">thomas@vangoidsenhoven.dev</p>
+						<p class="font-medium">vangoidsenhoventhomas@gmail.com</p>
 					</div>
 				</a>
 
 				<a
-					href="https://linkedin.com/in/thomasvangoidsenhoven"
+					href="https://www.linkedin.com/in/thomas-vangoidsenhoven-ba18b7139/"
 					target="_blank"
 					rel="noopener noreferrer"
 					class="group p-6 bg-bg-card rounded-2xl border border-border hover:border-azure/50 transition-all duration-300 flex items-center gap-4"
@@ -69,7 +69,7 @@
 					</div>
 					<div>
 						<p class="text-sm text-text-muted mb-1">LinkedIn</p>
-						<p class="font-medium">/in/thomasvangoidsenhoven</p>
+						<p class="font-medium">/in/thomas-vangoidsenhoven</p>
 					</div>
 				</a>
 

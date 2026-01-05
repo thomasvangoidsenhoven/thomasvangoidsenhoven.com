@@ -50,7 +50,7 @@
 				? 'opacity-100 translate-y-0'
 				: 'opacity-0 translate-y-4'}"
 		>
-			Building scalable, cloud-native applications with a passion for clean architecture and
+			Building scalable, secure, cloud-native applications with a passion for clean architecture and
 			developer experience.
 		</p>
 

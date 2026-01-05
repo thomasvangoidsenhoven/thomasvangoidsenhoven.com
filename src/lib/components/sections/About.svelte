@@ -15,7 +15,7 @@
 				</h2>
 				<div class="space-y-4 text-text-secondary text-lg leading-relaxed">
 					<p>
-						With over <span class="text-text-primary font-semibold">8 years</span> of experience in
+						With over <span class="text-text-primary font-semibold">7 years</span> of experience in
 						.NET development, I specialize in building robust, scalable backend systems and cloud-native
 						applications.
 					</p>
@@ -36,10 +36,10 @@
 			<div class="relative">
 				<!-- Stats cards -->
 				<div class="grid grid-cols-2 gap-4">
-					<StatCard value="8+" label="Years Experience" hoverColor="dotnet" />
-					<StatCard value="50+" label="Projects Delivered" hoverColor="azure" />
-					<StatCard value="10M+" label="API Requests/Day" hoverColor="csharp" />
-					<StatCard value="99.9%" label="Uptime Achieved" hoverColor="dotnet" />
+					<StatCard value="7+" label="Years Experience" hoverColor="dotnet" />
+					<StatCard value="20+" label="Projects Delivered" hoverColor="azure" />
+					<StatCard value="5M+" label="API Requests/Day" hoverColor="csharp" />
+					<StatCard value="10+" label="Engineers Mentored" hoverColor="dotnet" />
 				</div>
 
 				<!-- Decorative element -->
