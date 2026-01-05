@@ -27,7 +27,7 @@
 			{/each}
 		</div>
 		<a
-			href="/thomasvangoidsenhoven.pdf"
+			href="/thomasvangoidsenhoven_cv.pdf"
 			download
 			class="hidden md:flex items-center gap-2 px-4 py-2 text-sm font-medium bg-dotnet hover:bg-dotnet-light transition-colors rounded-lg"
 		>

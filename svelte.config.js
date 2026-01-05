@@ -16,7 +16,7 @@ const config = {
 		prerender: {
 			handleHttpError: ({ path, message }) => {
 				// Ignore missing CV PDF - add it to static/ when ready
-				if (path === '/thomasvangoidsenhoven_CV.pdf') {
+				if (path === '/thomasvangoidsenhoven_cv.pdf') {
 					console.warn(`Warning: ${message}`);
 					return;
 				}
