@@ -11,7 +11,7 @@
 <nav class="fixed top-0 left-0 right-0 z-50 backdrop-blur-xl bg-bg-deep/80 border-b border-border">
 	<div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
 		<a href="#home" class="font-display font-bold text-xl tracking-tight">
-			<span class="text-gradient">TVG</span>
+			<span class="text-gradient">Thomas Vangoidsenhoven</span>
 		</a>
 		<div class="hidden md:flex items-center gap-1">
 			{#each navItems as item}
