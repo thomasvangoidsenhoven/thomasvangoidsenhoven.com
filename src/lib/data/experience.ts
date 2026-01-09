@@ -2,27 +2,29 @@ import type { Experience } from '$lib/types';
 
 export const experiences: Experience[] = [
 	{
-		title: 'Senior .NET Developer',
+		title: 'Senior/Lead .NET Developer',
 		company: 'Tech Solutions Inc.',
-		period: '2021 - Present',
+		period: '2023 - 2026',
 		description:
-			'Leading backend development for enterprise-scale microservices architecture. Designing and implementing RESTful APIs serving 10M+ requests daily.',
+			'TODO',
 		highlights: ['Microservices', 'Azure', 'Event-Driven Architecture']
 	},
 	{
 		title: '.NET Developer',
 		company: 'Digital Innovations',
-		period: '2018 - 2021',
+		period: '2021 - 2023',
 		description:
-			'Built and maintained multiple ASP.NET Core applications. Implemented CI/CD pipelines and automated testing strategies.',
+			'Responsible for the technical analysis / design and creation of new web modules using\n' +
+			'Vue/Typescript/Nuxt for the front-end and creating/integrating this with a .NET 6/EFCORE/MSSQL\n' +
+			'backend stack',
 		highlights: ['ASP.NET Core', 'Entity Framework', 'Azure DevOps']
 	},
 	{
 		title: 'Junior Developer',
-		company: 'Software Startup',
-		period: '2016 - 2018',
+		company: 'Gfi/Realdomen/Inetum',
+		period: '2019 - 2021',
 		description:
-			'Developed full-stack applications using C# and Angular. Participated in agile development processes.',
+			'TODO',
 		highlights: ['Full-Stack', 'Agile', 'Team Collaboration']
 	}
 ];
