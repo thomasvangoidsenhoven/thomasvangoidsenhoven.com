@@ -22,6 +22,6 @@ export { default as About } from './components/sections/About.svelte';
 export { default as Skills } from './components/sections/Skills.svelte';
 export { default as Experience } from './components/sections/Experience.svelte';
 export { default as Projects } from './components/sections/Projects.svelte';
-export { default as Certifications } from './components/sections/Certifications.svelte';
+export { default as Expertise } from './components/sections/Expertise.svelte';
 export { default as Contact } from './components/sections/Contact.svelte';
 export { default as Footer } from './components/sections/Footer.svelte';

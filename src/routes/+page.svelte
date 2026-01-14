@@ -7,7 +7,7 @@
 		Skills,
 		Experience,
 		Projects,
-		Certifications,
+		Expertise,
 		Contact,
 		Footer
 	} from '$lib';
@@ -48,7 +48,7 @@
 <Skills />
 <Experience />
 <Projects />
-<Certifications />
+<Expertise />
 <Contact />
 <Footer />
 
