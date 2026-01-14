@@ -2,21 +2,27 @@ import type { Project } from '$lib/types';
 
 export const projects: Project[] = [
 	{
-		title: 'E-Commerce Platform',
-		description: 'Scalable microservices-based e-commerce solution handling 50k+ concurrent users',
-		tech: ['ASP.NET Core', 'Azure Service Bus', 'CosmosDB', 'Docker'],
+		title: 'Newspaper Processing Pipelines',
+		description: 'Creating, maintaining and optimizing .NET based newspaper processing pipelines managed by Infrastructure as Code on AWS',
+		tech: ['.NET', 'AWS Lambda/SQS', 'Terraform', 'Bitbucket CI/CD'],
 		link: '#'
 	},
 	{
-		title: 'Real-time Analytics Dashboard',
-		description: 'Live data visualization platform with SignalR for real-time updates',
-		tech: ['Blazor', 'SignalR', 'Azure Functions', 'SQL Server'],
+		title: 'Auth System Integrations',
+		description: 'Integrating and setting up Authentication/Authorization systems across multiple platforms and providers',
+		tech: ['OIDC/OAuth', 'Auth0', 'Piano', 'Keycloak'],
 		link: '#'
 	},
 	{
-		title: 'API Gateway Solution',
-		description: 'Custom API gateway with rate limiting, authentication, and monitoring',
-		tech: ['YARP', 'Redis', 'Prometheus', 'Grafana'],
+		title: 'Seed Batch Quality Management',
+		description: 'Application to check the quality and manage approval of sugar beet seed batches for SES Vanderhave',
+		tech: ['.NET Core', 'Oracle SQL', 'Entity Framework Core', 'Angular 6'],
+		link: '#'
+	},
+	{
+		title: 'Compound Testing Dashboards',
+		description: 'Creating dashboards around broad spectrum compound testing for Johnson & Johnson',
+		tech: ['.NET', 'AngularJS', 'SQL Server', 'Data Visualization'],
 		link: '#'
 	}
 ];

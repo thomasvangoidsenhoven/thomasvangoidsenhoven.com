@@ -57,7 +57,7 @@ src/
     │       ├── Skills.svelte
     │       ├── Experience.svelte
     │       ├── Projects.svelte
-    │       ├── Certifications.svelte
+    │       ├── Expertise.svelte
     │       ├── Contact.svelte
     │       └── Footer.svelte
     └── assets/                # Static assets (favicon)
