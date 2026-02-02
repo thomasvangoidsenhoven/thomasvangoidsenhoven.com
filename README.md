@@ -1,38 +1,72 @@
-# sv
+# thomasvangoidsenhoven.com
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Personal portfolio website built with SvelteKit 2 and Svelte 5.
 
-## Creating a project
+## Tech Stack
 
-If you're seeing this, you've probably already done this step. Congrats!
+- **Framework:** SvelteKit 2 with Svelte 5 (runes)
+- **Styling:** Tailwind CSS 4
+- **Build:** Vite 7
+- **Language:** TypeScript 5 (strict mode)
+- **Deployment:** Static site generation with Nginx (Docker)
 
-```sh
-# create a new project in the current directory
-npx sv create
+## Development
 
-# create a new project in my-app
-npx sv create my-app
-```
+### Prerequisites
 
-## Developing
+- Node.js 22+
+- npm
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Getting Started
 
-```sh
+```bash
+# Install dependencies
+npm install
+
+# Start development server
 npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
 ```
 
-## Building
+The dev server runs at [http://localhost:5173](http://localhost:5173).
 
-To create a production version of your app:
+### Available Scripts
 
-```sh
-npm run build
+| Command            | Description                          |
+| ------------------ | ------------------------------------ |
+| `npm run dev`      | Start development server             |
+| `npm run build`    | Build for production                 |
+| `npm run preview`  | Preview production build             |
+| `npm run check`    | Type check Svelte & TypeScript       |
+
+## Project Structure
+
+```
+src/
+├── app.css                 # Tailwind config with custom theme
+├── routes/
+│   ├── +layout.svelte      # Root layout
+│   └── +page.svelte        # Home page
+└── lib/
+    ├── components/
+    │   ├── ui/             # Reusable UI components
+    │   └── sections/       # Page sections (Hero, About, etc.)
+    └── data/               # Content data (skills, experience, projects)
 ```
 
-You can preview the production build with `npm run preview`.
+## Deployment
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+### Docker
+
+```bash
+# Build and run with Docker Compose
+docker compose up -d
+
+# Or build manually
+docker build -t portfolio .
+docker run -p 8081:8081 portfolio
+```
+
+### Static Hosting
+
+The site builds to static HTML/CSS/JS. Run `npm run build` and deploy the `build/` directory to any static host.
+
