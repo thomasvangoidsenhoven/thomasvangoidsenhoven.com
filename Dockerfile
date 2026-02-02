@@ -24,7 +24,7 @@ COPY nginx.conf /etc/nginx/nginx.conf
 # Copy built static files from builder stage
 COPY --from=builder /app/build /usr/share/nginx/html
 
-EXPOSE 80
+EXPOSE 8081
 
 
 CMD ["nginx", "-g", "daemon off;"]
