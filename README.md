@@ -69,4 +69,3 @@ docker run -p 8081:8081 portfolio
 ### Static Hosting
 
 The site builds to static HTML/CSS/JS. Run `npm run build` and deploy the `build/` directory to any static host.
-
