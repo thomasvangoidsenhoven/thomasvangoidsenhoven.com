@@ -14,6 +14,19 @@ export const projects: Project[] = [
 		link: '#'
 	},
 	{
+		title: 'DDD Hexagonal Architecture Migration',
+		description:
+			'Migration of legacy .NET endpoints to a new Domain Driven Hexagonal design architecture',
+		tech: ['.NET', 'DDD', 'Hexagonal Architecture', 'API Design'],
+		link: '#'
+	},
+	{
+		title: 'Regression Testing Tools',
+		description: 'Creating regression testing tools for Toyota using .NET, Nunjucks and MongoDB',
+		tech: ['.NET', 'Nunjucks', 'MongoDB', 'Test Automation'],
+		link: '#'
+	},
+	{
 		title: 'Seed Batch Quality Management',
 		description: 'Application to check the quality and manage approval of sugar beet seed batches for SES Vanderhave',
 		tech: ['.NET Core', 'Oracle SQL', 'Entity Framework Core', 'Angular 6'],

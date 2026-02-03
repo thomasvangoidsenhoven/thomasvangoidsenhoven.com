@@ -6,15 +6,15 @@
 	<div class="max-w-6xl mx-auto px-6">
 		<SectionHeader tag="CREDENTIALS" title="Expertise &" highlight="Education" />
 
-		<div class="grid md:grid-cols-2 gap-8">
+		<div class="grid md:grid-cols-2 gap-8 items-stretch">
 			<!-- Technical Expertise -->
-			<div class="space-y-4">
+			<div class="flex flex-col gap-4">
 				<h3 class="font-[family-name:var(--font-display)] text-xl font-bold mb-6">
 					Technical Expertise
 				</h3>
 
 				<div
-					class="p-4 bg-bg-card rounded-xl border border-border flex items-center gap-4 hover:border-azure/50 transition-colors"
+					class="p-4 bg-bg-card rounded-xl border border-border flex items-center gap-4 hover:border-azure/50 transition-colors flex-1"
 				>
 					<div
 						class="w-12 h-12 rounded-lg bg-azure/20 flex items-center justify-center flex-shrink-0"
@@ -30,7 +30,7 @@
 				</div>
 
 				<div
-					class="p-4 bg-bg-card rounded-xl border border-border flex items-center gap-4 hover:border-dotnet/50 transition-colors"
+					class="p-4 bg-bg-card rounded-xl border border-border flex items-center gap-4 hover:border-dotnet/50 transition-colors flex-1"
 				>
 					<div
 						class="w-12 h-12 rounded-lg bg-dotnet/20 flex items-center justify-center flex-shrink-0"
@@ -46,7 +46,7 @@
 				</div>
 
 				<div
-					class="p-4 bg-bg-card rounded-xl border border-border flex items-center gap-4 hover:border-csharp/50 transition-colors"
+					class="p-4 bg-bg-card rounded-xl border border-border flex items-center gap-4 hover:border-csharp/50 transition-colors flex-1"
 				>
 					<div
 						class="w-12 h-12 rounded-lg bg-csharp/20 flex items-center justify-center flex-shrink-0"
@@ -63,11 +63,11 @@
 			</div>
 
 			<!-- Education -->
-			<div class="space-y-4">
+			<div class="flex flex-col gap-4">
 				<h3 class="font-[family-name:var(--font-display)] text-xl font-bold mb-6">Education</h3>
 
 				<div
-					class="p-6 bg-bg-card rounded-xl border border-border hover:border-csharp/50 transition-colors"
+					class="p-6 bg-bg-card rounded-xl border border-border hover:border-csharp/50 transition-colors flex-1"
 				>
 					<div class="flex items-start gap-4">
 						<div
@@ -110,7 +110,7 @@
 					</div>
 				</div>
 
-				<div class="p-4 bg-bg-card rounded-xl border border-border">
+				<div class="p-4 bg-bg-card rounded-xl border border-border flex-1">
 					<h4 class="font-semibold mb-2">Continuous Learning</h4>
 					<p class="text-sm text-text-secondary">
 						Regular participant in .NET conferences, active contributor to open source projects,
