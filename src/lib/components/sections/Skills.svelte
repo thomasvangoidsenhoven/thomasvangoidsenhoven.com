@@ -77,30 +77,10 @@
 					<span class="w-3 h-3 rounded-full bg-dotnet-light"></span>
 					Practices & Patterns
 				</h3>
-				<div class="flex flex-wrap gap-3">
-					{#each skills.practices as practice}
-						<span
-							class="px-4 py-2 bg-bg-deep rounded-lg text-sm font-medium border border-border hover:border-dotnet/50 transition-colors"
-						>
-							{practice.name}
-						</span>
+				<div class="space-y-4">
+					{#each skills.practices as skill}
+						<SkillBar {skill} animated={inView} />
 					{/each}
-					<span
-						class="px-4 py-2 bg-bg-deep rounded-lg text-sm font-medium border border-border hover:border-dotnet/50 transition-colors"
-						>Unit Testing</span
-					>
-					<span
-						class="px-4 py-2 bg-bg-deep rounded-lg text-sm font-medium border border-border hover:border-dotnet/50 transition-colors"
-						>Integration Testing</span
-					>
-					<span
-						class="px-4 py-2 bg-bg-deep rounded-lg text-sm font-medium border border-border hover:border-dotnet/50 transition-colors"
-						>REST API Design</span
-					>
-					<span
-						class="px-4 py-2 bg-bg-deep rounded-lg text-sm font-medium border border-border hover:border-dotnet/50 transition-colors"
-						>Microservices</span
-					>
 				</div>
 			</div>
 		</div>
