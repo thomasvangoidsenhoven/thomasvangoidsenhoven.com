@@ -13,7 +13,7 @@ RUN npm ci
 COPY . .
 
 # Set default env var for availability badge (can be overridden via --build-arg)
-ARG PUBLIC_AVAILABLE_FOR_OPPORTUNITIES=true
+ARG PUBLIC_AVAILABLE_FOR_OPPORTUNITIES=false
 ENV PUBLIC_AVAILABLE_FOR_OPPORTUNITIES=$PUBLIC_AVAILABLE_FOR_OPPORTUNITIES
 
 # Build the static site
