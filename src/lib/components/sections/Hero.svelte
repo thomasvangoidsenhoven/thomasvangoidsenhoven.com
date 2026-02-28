@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
+	import { PUBLIC_AVAILABLE_FOR_OPPORTUNITIES } from '$env/static/public';
 
 	let mounted = $state(false);
+	const showAvailability = PUBLIC_AVAILABLE_FOR_OPPORTUNITIES === 'true';
 
 	onMount(() => {
 		mounted = true;
@@ -17,16 +19,18 @@
 	></div>
 
 	<div class="relative z-10 max-w-4xl mx-auto px-6 text-center">
-		<div
-			class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-bg-card border border-border mb-8 transition-all duration-700 {mounted
-				? 'opacity-100 translate-y-0'
-				: 'opacity-0 translate-y-4'}"
-		>
-			<span class="w-2 h-2 rounded-full bg-csharp animate-pulse"></span>
-			<span class="text-sm text-text-secondary font-mono"
-				>Available for new opportunities</span
+		{#if showAvailability}
+			<div
+				class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-bg-card border border-border mb-8 transition-all duration-700 {mounted
+					? 'opacity-100 translate-y-0'
+					: 'opacity-0 translate-y-4'}"
 			>
-		</div>
+				<span class="w-2 h-2 rounded-full bg-csharp animate-pulse"></span>
+				<span class="text-sm text-text-secondary font-mono"
+					>Available for new opportunities</span
+				>
+			</div>
+		{/if}
 
 		<h1
 			class="font-display text-5xl md:text-7xl font-bold mb-6 transition-all duration-700 delay-100 {mounted
